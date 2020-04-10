@@ -11,10 +11,6 @@ api = Api(app)
 def create_tables():
   db.create_all()
 
-# @app.route("/")
-# def home():
-#   return "hello world!"
-
 api.add_resource(Restaurants, "/restaurants")
 api.add_resource(RestaurantMember, "/restaurants/<id>")
 
