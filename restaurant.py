@@ -1,7 +1,7 @@
 from db import db
 
 class Restaurant(db.Model):
-  __tablename__ = 'restaurants'
+  __tablename__ = "restaurants"
   id = db.Column(db.Integer, primary_key=True)
   name = db.Column(db.String)
 

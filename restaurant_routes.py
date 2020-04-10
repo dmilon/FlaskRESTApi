@@ -1,7 +1,7 @@
 from flask_restful import Resource, reqparse
 from restaurant import Restaurant
 parser = reqparse.RequestParser()
-parser.add_argument('name', type=str)
+parser.add_argument("name", type=str)
 
 class Restaurants(Resource):
   def post(self):
@@ -25,7 +25,7 @@ class RestaurantMember(Resource):
     restaurant = Restaurant.find_by_id(id)
     data = parser.parse_args()
     if restaurant:
-      restaurant.name = data['name']
+      restaurant.name = data["name"]
       restaurant.save()
       return restaurant.json()
     else:
