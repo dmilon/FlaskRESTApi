@@ -61,13 +61,3 @@ For more information about basic Heroku CLI commands, go [here](https://devcente
 
 - **[lucien-george](https://github.com/lucien-george)** - [Initial Flask REST API](https://github.com/lucien-george/FlaskRESTApi)
 - **[PurpleBooth](https://github.com/PurpleBooth)** - [README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
